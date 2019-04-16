@@ -24,7 +24,7 @@ import { FriendbotBuilder } from './friendbot_builder';
 import { AssetsCallBuilder } from './assets_call_builder';
 import { TradeAggregationCallBuilder } from './trade_aggregation_call_builder';
 
-export const SUBMIT_TRANSACTION_TIMEOUT = 60 * 1000;
+export const SUBMIT_TRANSACTION_TIMEOUT = 20 * 1000;
 
 const STROOPS_IN_LUMEN = 10000000;
 
